@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            text-align: center;
+        }
+
+        .products-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .product-card {
+            background: white;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            text-align: center;
+        }
+
+        .product-card img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .product-card a {
+            text-decoration: none;
+            background: #007bff;
+            color: white;
+            padding: 10px 20px;
+            display: inline-block;
+            margin-top: 10px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Shop Our Products</h1>
+    <div class="products-container">
+        <div class="product-card">
+            <img src="https://via.placeholder.com/300" alt="Product 1">
+            <h2>Product 1</h2>
+            <p>$25.00</p>
+            <a href="payment.html">Buy Now</a>
+        </div>
+        <div class="product-card">
+            <img src="https://via.placeholder.com/300" alt="Product 2">
+            <h2>Product 2</h2>
+            <p>$35.00</p>
+            <a href="payment.html">Buy Now</a>
+        </div>
+    </div>
+</body>
+</html>
